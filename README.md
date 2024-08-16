@@ -18,7 +18,7 @@ Welcome to the A2 Creations website, a beautifully designed static site showcasi
 - Bootstrap
 - JavaScript (including SweetAlert, EmailJS, and AOS.js)
 
-**Demo:** [Link to Live Site]
+**Live Preview:** https://a2-creations.netlify.app/
 
 **Installation:**  
 To get a local copy up and running, follow these steps:
