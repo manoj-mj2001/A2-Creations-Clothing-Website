@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A2 Creations Official</title>
+
+    <!-- Styling CDNs -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@10/sweetalert2.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand logo" href="#">
+          <img src="./images/logo.jpg" alt="Logo" class="logo-image" />
+          <span class="logo-text"
+            >A2 Creations<span class="wavehand">🤍</span></span
+          >
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#men">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#women">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="home-section d-flex flex-column justify-content-center align-items-center text-center text-white">
+      <h1 class="display-4">
+        Welcome to A2 Creations<span class="wavehand">👋</span>
+      </h1>
+      <p class="lead typewriter">Trendy and stylish clothing for everyone</p>
+      <a href="#men" class="btn btn-light btn-lg"
+        >Explore Men's Collections 👔👖</a
+      >
+      <a href="#women" class="btn btn-light btn-lg"
+        >Explore Women's Collections 👗🥻</a
+      >
+    </section>
+
+    <!-- Men's Collection Section -->
+    <section
+      id="men"
+      class="clothing-section py-5"
+      data-aos="slide-left"
+      data-aos-delay="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false">
+      <div class="container">
+        <h2 class="text-center mb-4">Men's Collection</h2>
+        <div id="menCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slider Item 1 -->
+
+            <div class="carousel-item active">
+              <h4 class="text-center mb-4">Formal Shirts</h4>
+              <div class="d-flex justify-content-around">
+                <div class="clothing-slide">
+                  <img
+                    src="./images/formal2.jpg"
+                    alt="Men's Shirt"
+                    class="img-fluid"
+                    data-image="./images/formal2.jpg" />
+                  <p>Classic Men's Shirt</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/formal2.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/formal1.jpg"
+                    alt="Men's Jacket"
+                    class="img-fluid"
+                    data-image="./images/formal1.jpg" />
+                  <p>Stylish Men's Jacket</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/formal1.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/img3.avif"
+                    alt="Men's Pants"
+                    class="img-fluid"
+                    data-image="./images/img3.avif" />
+                  <p>Comfortable Men's Pants</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/img3.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/formal3.webp"
+                    alt="Men's Watch"
+                    class="img-fluid"
+                    data-image="./images/formal3.webp" />
+                  <p>Elegant Men's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/formal3.webp"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/formal4.jpg"
+                    alt="Men's Watch"
+                    class="img-fluid"
+                    data-image="./images/formal4.jpg" />
+                  <p>Elegant Men's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/formal4.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider Item 2 -->
+
+            <div class="carousel-item">
+              <h4 class="text-center mb-4">Casual Shirts</h4>
+              <div class="d-flex justify-content-around">
+                <div class="clothing-slide">
+                  <img
+                    src="./images/img8.webp"
+                    alt="Men's Shoes"
+                    class="img-fluid"
+                    data-image="./images/img8.webp" />
+                  <p>Men's Shoes</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/img8.webp"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/casual1.webp"
+                    alt="Men's Hat"
+                    class="img-fluid"
+                    data-image="./images/casual1.webp" />
+                  <p>Classic Men's Hat</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/casual.webp"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/casual2.jpg"
+                    alt="Men's Watch"
+                    class="img-fluid"
+                    data-image="./images/casual2.jpg" />
+                  <p>Elegant Men's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/casual2.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/casual4.webp"
+                    alt="Men's Watch"
+                    class="img-fluid"
+                    data-image="./images/casual4.webp" />
+                  <p>Elegant Men's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/casual4.webp"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/casual3.avif"
+                    alt="Men's Watch"
+                    class="img-fluid"
+                    data-image="./images/casual3.avif" />
+                  <p>Elegant Men's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    data-image="./images/casual3.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#menCarousel"
+            role="button"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#menCarousel"
+            role="button"
+            data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Women's Collection Section -->
+    <section
+      id="women"
+      class="clothing-section py-5 bg-light"
+      data-aos="slide-right"
+      data-aos-delay="300"
+      data-aos-duration="1200"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false">
+      <div class="container">
+        <h2 class="text-center mb-4">Women's Collection</h2>
+        <div id="womenCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slider Item 1 -->
+            <div class="carousel-item active">
+              <h4 class="text-center mb-4">Trendy Kurtas</h4>
+              <div class="d-flex justify-content-around">
+                <div class="clothing-slide">
+                  <img
+                    src="images/women1.avif"
+                    alt="Women's Dress"
+                    class="img-fluid"
+                    data-image="./images/women1.avif" />
+                  <p>Elegant Women's Dress</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/women1.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/women2.avif"
+                    alt="Women's Blouse"
+                    class="img-fluid"
+                    data-image="./images/women2.avif" />
+                  <p>Chic Women's Blouse</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/women2.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/women4.avif"
+                    alt="Women's Skirt"
+                    class="img-fluid"
+                    data-image="./images/women4.avif" />
+                  <p>Stylish Women's Skirt</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/women4.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/kurta1.avif"
+                    alt="Women's Skirt"
+                    class="img-fluid"
+                    data-image="./images/kurta1.avif" />
+                  <p>Stylish Women's Skirt</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/kurta1.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/kurta2.jpg"
+                    alt="Women's Skirt"
+                    class="img-fluid"
+                    data-image="./images/kurta2.jpg" />
+                  <p>Stylish Women's Skirt</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/kurta2.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider Item 2 -->
+            <div class="carousel-item">
+              <h4 class="text-center mb-4">Beautiful Sarees</h4>
+              <div class="d-flex justify-content-around">
+                <div class="clothing-slide">
+                  <img
+                    src="./images/women8.avif"
+                    alt="Women's Shoes"
+                    class="img-fluid"
+                    data-image="./images/women8.avif" />
+                  <p>Women's Shoes</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/women8.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/women5.jpg"
+                    alt="Women's Handbag"
+                    class="img-fluid"
+                    data-image="./images/women5.jpg" />
+                  <p>Trendy Women's Handbag</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/women5.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/saree1.jpg"
+                    alt="Women's Watch"
+                    class="img-fluid"
+                    data-image="./images/saree1.jpg" />
+                  <p>Beautiful Women's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/saree1.jpg"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/saree2.webp"
+                    alt="Women's Watch"
+                    class="img-fluid"
+                    data-image="./images/saree2.webp" />
+                  <p>Beautiful Women's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/saree2.webp"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+                <div class="clothing-slide">
+                  <img
+                    src="./images/women6.webp"
+                    alt="Women's Watch"
+                    class="img-fluid"
+                    data-image="./images/women6.avif" />
+                  <p>Beautiful Women's Watch</p>
+                  <a
+                    href="https://wa.me/+917387905536"
+                    target="_blank"
+                    class="btn btn-danger btn-sm"
+                    data-image="./images/women6.avif"
+                    >Buy Now 🛒</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#womenCarousel"
+            role="button"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#womenCarousel"
+            role="button"
+            data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="about-section py-5"
+      data-aos="fade-left"
+      data-aos-delay="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false">
+      <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="lead">
+              At A2 Creations, we are dedicated to bringing you the latest
+              trends and timeless classics in fashion. Our collection is
+              carefully curated to offer something for everyone, with a focus on
+              quality and style. Whether you are looking for casual wear or
+              something more formal, we have it all.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./images/about.jfif"
+              alt="About Us"
+              class="img-fluid rounded shadow-lg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="contact-section py-5"
+      data-aos="fade-right"
+      data-aos-delay="300"
+      data-aos-duration="1200"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form
+          method="post"
+          class="bg-light p-4 rounded shadow-lg"
+          id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              placeholder="Your Name"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              placeholder="Your Email"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="email">Mobile</label>
+            <input
+              type="number"
+              id="mobile"
+              name="mobile"
+              class="form-control"
+              placeholder="Your Mobile"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-control"
+              rows="4"
+              placeholder="Your Message"
+              required></textarea>
+          </div>
+          <button
+            type="submit"
+            class="btn btn-success btn-block"
+            id="contactBtn">
+            Send Message 💌
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>About Us</h5>
+            <p>
+              Providing high-quality fashion at affordable prices. Follow us for
+              the latest trends and updates.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-white">Home</a></li>
+              <li><a href="#men" class="text-white">Men</a></li>
+              <li><a href="#women" class="text-white">Women</a></li>
+              <li><a href="#about" class="text-white">About</a></li>
+              <li><a href="#contact" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Contact Us</h5>
+            <p>Email: chaitanyadegaonkar77@gmail.com</p>
+            <p>
+              Phone:
+              <a href="tel:+917387905536" class="text-white">+91 7387905536</a>
+            </p>
+            <a
+              href="https://wa.me/+917387905536"
+              target="_blank"
+              class="btn btn-success"
+              >Chat with us on WhatsApp</a
+            >
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <h5>Follow Us</h5>
+            <a
+              href="https://www.instagram.com/a2creationspune/"
+              target="_blank"
+              class="text-white mx-2"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <p class="mt-4">&copy; 2024 A24 Creations. All rights reserved.</p>
+        <p style="font-size: smaller">
+          🎨 Designed with ❤️ by Mr. Manoj Tambake
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="script.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("Rpg--g04hulesS3jD");
+      })();
+    </script>
+  </body>
+</html>
