@@ -1,5 +1,5 @@
 
-### A2 Creations Website
+### A2 Creations - Clothing Website
 
 **Description:**  
 Welcome to the A2 Creations website, a beautifully designed static site showcasing a range of creative services and products. This project includes various interactive and visually appealing elements to enhance user experience.
