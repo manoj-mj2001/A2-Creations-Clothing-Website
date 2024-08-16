@@ -376,9 +376,6 @@ footer .btn-success {
   .home-section p {
     font-size: 18px;
   }
-  .carousel-slide {
-    margin-left: 100px;
-  }
 
   .carousel-inner {
     flex-direction: column;
@@ -390,7 +387,7 @@ footer .btn-success {
 
   .clothing-slide {
     margin-bottom: 20px;
-    margin-left: 125px;
+    margin-left: 130px;
   }
 }
 
@@ -448,14 +445,16 @@ footer .btn-success {
   .navbar-toggler-icon {
     background-image: url("https://via.placeholder.com/30x30");
   }
-  .clothing-slide {
-    margin-right: -20rem;
-  }
+
   footer {
     text-align: center;
   }
 
   footer .row {
     flex-direction: column;
+  }
+
+  .clothing-slide {
+    margin-left: 50px;
   }
 }
