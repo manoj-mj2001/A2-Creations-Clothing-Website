@@ -363,7 +363,7 @@ footer .btn-success {
     }
 
     53% {
-      border-color: orange;
+      border-color: rgb(237, 155, 3);
     }
   }
   .home-section {
@@ -396,7 +396,7 @@ footer .btn-success {
     width: 15%;
     height: 23px;
     overflow: hidden;
-    border-right: 0.1rem solid orange;
+    border-right: 0.1rem solid rgb(248, 163, 5);
     white-space: nowrap;
     animation: typing 5.5s steps(50) infinite, blink-caret 0.8s infinite;
   }
@@ -455,6 +455,6 @@ footer .btn-success {
   }
 
   .clothing-slide {
-    margin-left: 50px;
+    margin-left: 40px;
   }
 }
